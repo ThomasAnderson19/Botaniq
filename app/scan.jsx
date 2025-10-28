@@ -59,7 +59,7 @@ export default function Scan() {
     });
 
     // Go to result screen with the image URI
-    router.push({ pathname: "/result", params: { uri: photo?.uri ?? "" } });
+    router.push({ pathname: "/preview", params: { uri: photo?.uri ?? "" } });
   } catch (e) {
     console.warn("capture failed", e);
   } finally {
