@@ -57,7 +57,7 @@ export default function Preview() {
 }
 
 const styles = StyleSheet.create({
-  fill: { flex: 1, backgroundColor: "#0b1015" },
+  fill: { flex: 1, backgroundColor: "#6f9bc7ff" },
   topBar: {
     position: "absolute", top: 0, left: 0, right: 0, zIndex: 10,
     paddingHorizontal: 12, paddingBottom: 8,
