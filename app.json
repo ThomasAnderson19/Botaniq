@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "ukendtnavn", 
     "name": "Ukendtnavn",
     "slug": "Ukendtnavn",
     "version": "1.0.0",
@@ -13,6 +14,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to identify flowers and trees."
+      },
       "supportsTablet": true
     },
     "android": {
